@@ -21,5 +21,64 @@ div:last-of-type {
 
 section {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.strectch {
+    align-items: stretch;
+}
+
+.align-flex-start {
+    align-items: flex-start;
+}
+
+.align-flex-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.separation {
+    height: 50px;
+    background-color: black;
+}
+
+.container {
+    padding: 5px;
+    background: yellow;
+    height: 00px;
 }
