@@ -1,0 +1,25 @@
+section div {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 40px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.35);
+}
+
+div:first-of-type {
+    background: violet;
+}
+
+div:nth-child(2) {
+    background: green;
+}
+
+div:last-of-type {
+    background: red;
+}
+
+section {
+    display: flex;
+    flex-direction: row-reverse;
+}
